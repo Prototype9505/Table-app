@@ -1,0 +1,126 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+
+.display-4 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.col-sm {
+  height: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.action-widget {
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 5px;
+  height: 100%;
+  width: 80%;
+  display: grid;
+  place-items: center;
+}
+
+#blurb {
+  background-color: rgba(90, 61, 119, 0.5);
+}
+
+#search-div {
+  background-color: rgb(68, 37, 99);
+  width: 25% ;
+}
+
+#table-wrapper {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  height: calc(100vh - 240px);
+  overflow-y: auto;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px 10px 0px #00000033;
+  border-collapse: collapse;
+  text-align: center;
+  padding-left: 100px;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+  
+}
+
+table tr th {
+  font-size: 18pt;
+
+}
+
+table tr td {
+  font-size: 14pt;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: white;
+  background-color: #2038a1;
+}
+
+.navbar {
+  background-color: #ccc !important;
+  height: 40px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.navbar-brand {
+  margin: auto;
+}
+
+a {
+  color: #684884;
+}
+
+a:hover {
+  color: #40285c;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.resizer {
+  display: inline-block;
+  background: rgba(49, 6, 243, 0.829);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  z-index: 1;
+  touch-action:none
+}
